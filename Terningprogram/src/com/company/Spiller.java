@@ -1,6 +1,8 @@
 package com.company;
 
 public class Spiller {
+    int point;
+    String navn;
     public String getNavn() {
         return navn;
     }
@@ -9,7 +11,6 @@ public class Spiller {
         this.navn = navn;
     }
 
-    String navn;
 
     public int getPoint() {
         return point;
@@ -19,7 +20,7 @@ public class Spiller {
         this.point = point;
     }
 
-    int point;
+
 
 
 
