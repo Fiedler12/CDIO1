@@ -16,9 +16,11 @@ public class Main {
         //Gør eventuelt dette til en class.
         System.out.println("Indtast spiller 1's navn.");
         spiller1.setNavn(input.nextLine());
+        System.out.println("Spiller 1 er " + spiller1.getNavn());
 
         System.out.println("Indtast spiller 2's navn.");
         spiller2.setNavn(input.nextLine());
+        System.out.println("Spiller 1 er " + spiller2.getNavn());
 
 
         while (spiller1.getPoint() < 40 && spiller2.getPoint() < 40) {
@@ -36,6 +38,6 @@ public class Main {
         terning.roll();
         System.out.println("Du har slået: " + terning.hentterning1() + " og " + terning.hentterning2() + " i alt har du slået:" + terning.henttotal());
         currentPlayer.setPoint(currentPlayer.getPoint() + terning.henttotal());
-        System.out.println(currentPlayer.getNavn() + " har nu: " + currentPlayer.getPoint());
+        System.out.println(currentPlayer.getNavn() + " har nu: " + currentPlayer.getPoint() + " point");
     }
 }
