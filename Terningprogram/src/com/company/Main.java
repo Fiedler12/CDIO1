@@ -30,6 +30,7 @@ public class Main {
         }
     }
     public static void tur(Spiller currentPlayer) {
+        System.out.println(currentPlayer.getNavn() + ", det er din tur.");
         System.out.println("Tryk enter for at slå.");
         input.nextLine();
         terning.roll();
