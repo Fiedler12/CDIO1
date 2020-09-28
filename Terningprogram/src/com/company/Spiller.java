@@ -3,6 +3,7 @@ package com.company;
 public class Spiller {
     int point;
     String navn;
+
     public String getNavn() {
         return navn;
     }
