@@ -20,14 +20,4 @@ public class Spiller {
     public void setPoint(int point) {
         this.point = point;
     }
-
-
-
-
-
-
-
-
-
-
 }
