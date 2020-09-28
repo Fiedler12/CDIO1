@@ -6,13 +6,13 @@ public class Terning {
 
     public Terning (){   //roll funktion
         roll();
-        
+
     }
 
     public void roll(){  //Hvad skal denne roll funktion gøre?
         terning1 = (int)(Math.random()*6+1);
         terning2 = (int)(Math.random()*6+1);
-        
+
     }
     public int hentterning1() {
         return terning1;
@@ -24,7 +24,7 @@ public class Terning {
     }
     public int henttotal() {
         return terning1 + terning2;
-                
+
     }
 
 
