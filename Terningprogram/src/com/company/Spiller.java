@@ -12,7 +12,6 @@ public class Spiller {
         this.navn = navn;
     }
 
-
     public int getPoint() {
         return point;
     }
