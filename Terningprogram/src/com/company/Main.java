@@ -26,9 +26,6 @@ public class Main {
         while (spiller1.getPoint() < 40 && spiller2.getPoint() < 40) {
             tur(spiller1);
             tur(spiller2);
-
-
-
         }
     }
     public static void tur(Spiller currentPlayer) {
