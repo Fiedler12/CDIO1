@@ -24,8 +24,5 @@ public class Terning {
     }
     public int henttotal() {
         return terning1 + terning2;
-
     }
-
-
 }
