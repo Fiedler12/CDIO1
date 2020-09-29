@@ -20,7 +20,7 @@ public class Main {
 
         System.out.println("Indtast spiller 2's navn.");
         spiller2.setNavn(input.nextLine());
-        System.out.println("Spiller 1 er " + spiller2.getNavn());
+        System.out.println("Spiller 2 er " + spiller2.getNavn());
 
 
         while (spiller1.getPoint() < 40 && spiller2.getPoint() < 40) {
