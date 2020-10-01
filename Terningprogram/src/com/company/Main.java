@@ -1,14 +1,17 @@
 package com.company;
 
 public class Main {
-    static Spiller spiller1 = new Spiller(); //
+    static Spiller spiller1 = new Spiller();
     static Spiller spiller2 = new Spiller();
     static Tur tur = new Tur();
-    static Spillernavn navn = new Spillernavn();
+    static AskName name = new AskName();
 
 
     public static void main(String[] args) {
-        navn.askName();
+        System.out.println("Skriv navnet på spiller 1.");
+        name.askName(spiller1);
+        System.out.println("Skriv navnet på spiller 2");
+        name.askName(spiller2);
 
         while (spiller1.getPoint() < 40 && spiller2.getPoint() < 40) {
             tur.tur(spiller1);
