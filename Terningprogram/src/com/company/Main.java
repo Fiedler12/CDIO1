@@ -5,9 +5,10 @@ public class Main {
     static Spiller spiller2 = new Spiller();
     static Tur tur = new Tur();
     static AskName name = new AskName();
-
+    static PrintRegler print = new PrintRegler();
 
     public static void main(String[] args) {
+        print.printRegler();
         System.out.println("Skriv navnet på spiller 1.");
         name.askName(spiller1);
         System.out.println("Skriv navnet på spiller 2");
