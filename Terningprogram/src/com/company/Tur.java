@@ -11,6 +11,8 @@ public class Tur {
     Scanner input = new Scanner(System.in);
     Terning terning = new Terning();
     public void tur (Spiller currentPlayer){
+        //Metodes er lavet således at dette kun kan blive kørt på en spiller. Deraf indholdet i parantesen.
+        //Den spiller som skal køres på erstattes af "currentPlayer" i koden.
         System.out.println(currentPlayer.getNavn() + ", det er din tur.");
         System.out.println("Tryk enter for at slå.");
         input.nextLine();

@@ -19,7 +19,7 @@ public class Main {
         name.askName(spiller1);
         System.out.println("Skriv navnet på spiller 2");
         name.askName(spiller2);
-
+        // Rammerne for spillet skabes og ture bliver kørt så længe begge spillere har mindre en 40 point.
        while (spiller1.getPoint() < 40 && spiller2.getPoint() < 40) {
             tur.tur(spiller1);
             if (spiller1.getPoint() >= 40) {
