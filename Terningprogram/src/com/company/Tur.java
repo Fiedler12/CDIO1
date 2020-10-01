@@ -16,6 +16,9 @@ public class Tur {
             System.out.println("Fordi du har slået to 1'ere har du mistet alle dine point.");
         }
         System.out.println(currentPlayer.getNavn() + " har nu: " + currentPlayer.getPoint() + " point");
+        while (terning.hentterning1() == terning.hentterning2()) {
+
+        }
     }
 
 }
