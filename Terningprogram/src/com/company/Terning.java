@@ -1,6 +1,14 @@
 package com.company;
 public class Terning {
-// modificeres så der kun er en terning
+/*
+Vi opretter en ny klasse ved navn Terning.
+Vi definerer disse terninger som værende af værdien int, da vi kun skal bruge hele tal.
+Vi giver vores terninger en roll-metode. Når dette kaldes gives både terning1 og terning2 en tilfældig værdi
+mellem 1 og 6.
+Dernæst skaber vi tre funktioner der er relativt lige hinanden
+Dette kalder vi for hentfunktioner som benyttes til at indhente de værdier der er kommet efter at benytte roll-
+funktionen.
+ */
     int terning1;  //Første terning
     int terning2;  // Anden terning
 

@@ -1,13 +1,19 @@
 package com.company;
 
 public class Main {
+    // Se Spiller.java
     static Spiller spiller1 = new Spiller();
     static Spiller spiller2 = new Spiller();
+    //Se Tur.java
     static Tur tur = new Tur();
+    //Se AskName.java
     static AskName name = new AskName();
+    // Se PrintRegler.java
     static PrintRegler print = new PrintRegler();
 
+
     public static void main(String[] args) {
+        //Vi starter spillet med at printe regler for at give en så brugervenlig oplevelse som muligt.
         print.printRegler();
         System.out.println("Skriv navnet på spiller 1.");
         name.askName(spiller1);
