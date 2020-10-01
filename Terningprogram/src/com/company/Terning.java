@@ -14,15 +14,15 @@ public class Terning {
         terning2 = (int)(Math.random()*6+1);
 
     }
-    public int hentterning1() {
+    public int hentterning1() { //Giv et tal (resultat) for terning 1
         return terning1;
 
     }
-    public int hentterning2() {
+    public int hentterning2() { //Giv et tal (resultat) for terning 2
         return terning2;
 
     }
-    public int henttotal() {
+    public int henttotal() { //Giv et resultat for de 2 terninger lagt sammen
         return terning1 + terning2;
     }
 }

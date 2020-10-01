@@ -1,7 +1,7 @@
 package com.company;
 
 public class Main {
-    static Spiller spiller1 = new Spiller();
+    static Spiller spiller1 = new Spiller(); //
     static Spiller spiller2 = new Spiller();
     static Tur tur = new Tur();
     static Spillernavn navn = new Spillernavn();
