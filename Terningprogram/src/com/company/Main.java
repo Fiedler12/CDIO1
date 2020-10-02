@@ -15,6 +15,7 @@ public class Main {
     public static void main(String[] args) {
         //Vi starter spillet med at printe regler for at give en så brugervenlig oplevelse som muligt.
         print.printRegler();
+        //Dernæst beder spillerne om at angive deres navne
         System.out.println("Skriv navnet på spiller 1.");
         name.askName(spiller1);
         System.out.println("Skriv navnet på spiller 2");
